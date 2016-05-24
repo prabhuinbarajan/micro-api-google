@@ -45,3 +45,13 @@ integrations:
         branches:
           only:
             - google-gcr-gke
+    notifications:
+      - integrationName: slack-cubeship
+        type: slack
+        recipients:
+            - "#shippable"
+        branches:
+          only:
+            - google-gcr-gke
+        on_success: always
+        on_failure: always
