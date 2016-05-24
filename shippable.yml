@@ -39,7 +39,7 @@ branches:
 
 integrations:
     hub:
-      - integrationName: GCR-shippable-gke
+      - integrationName: gcr
         type: gcr
         agent_only: true
         branches:
