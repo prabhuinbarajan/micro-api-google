@@ -7,7 +7,7 @@ function routes(app) {
       res.status(200).json(
         {
           status: 'OK',
-          body: req.body,
+          body: { message: 'Hello World' },
           query: req.query,
           params: req.params,
           method: req.method
