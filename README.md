@@ -26,3 +26,6 @@ In the shippable.yml, you should't need to change any of the environment variabl
 - SERVICE=micro-api
 - PROJECT_ID=shippable-gke
 - REGISTRY_ACCOUNT=gcr.io/$PROJECT_ID
+- 
+###
+Test
